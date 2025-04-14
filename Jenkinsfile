@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/mentorchita/javatestapp.git'
+                git 'https://github.com/OleksandrPoD/javatestapp.git'
             }
         }
 
